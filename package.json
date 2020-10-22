@@ -13,6 +13,6 @@
     "jsmodbus": "^4.0.4",
     "morgan": "~1.9.1",
     "pug": "2.0.0-beta11",
-    "serial": "0.0.9"
+    "serialport": "^9.0.2"
   }
 }

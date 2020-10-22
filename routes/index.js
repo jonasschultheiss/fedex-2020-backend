@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-const modbus = require('../..')
+const modbus = require('jsmodbus')
 const Serialport = require('serialport')
 const socket = new Serialport('/dev/ttyUSB0', {
   baudRate: 115200,
